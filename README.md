@@ -1,4 +1,4 @@
-#CHEETSHEET
+# CHEETSHEET
 
 * echo "blacklist hpwdt" >> /etc/modprobe.d/blacklist-hp.conf
 * cat /etc/modprobe.d/blacklist-hp.conf
