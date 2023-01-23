@@ -1,3 +1,18 @@
+#CHEETSHEET
+
+* echo "blacklist hpwdt" >> /etc/modprobe.d/blacklist-hp.conf
+* cat /etc/modprobe.d/blacklist-hp.conf
+* update-initramfs -k all -u
+* update-grub
+
+* curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+* echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/nul
+
+* apt install pve-headers-$(uname -r)
+* apt install make gcc git pandoc wget sudo htop iotop sdparm screen postfix open-iscsi curl dkms gh
+
+
+
 # NAME
 
 **hpsahba** - tool to enable/disable HBA mode on some HP Smart Array
