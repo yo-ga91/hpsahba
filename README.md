@@ -1,4 +1,4 @@
-#Lounch ./start.sh
+# Launch ./start.sh
 
 # CHEETSHEET
 
